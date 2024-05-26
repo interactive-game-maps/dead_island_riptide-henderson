@@ -44,13 +44,9 @@ interactive_map.addTileLayer('Ingame map', {
 // Step 3:
 // Add at least one marker layer
 // The order matters - they will appear in this order in the sidebar and layer control
-// See `marker_logic/collectibles.js` for a really basic layer
-addCollectibles(interactive_map);
 
 // Step 3.5 (optional):
 // Add more marker layer
-// See `marker_logic/information.js` for more advanced technics
-addInformation(interactive_map);
 
 // Step 4:
 // Finalize the map after adding all layers.
