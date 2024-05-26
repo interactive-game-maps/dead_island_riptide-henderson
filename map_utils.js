@@ -15,7 +15,7 @@ function getPopupMedia(feature, layer_id) {
         var image_link = document.createElement('a');
 
         // Add a destination to our link
-        image_link.href = `images/${layer_id}/${feature.properties.image_id}.png`;
+        image_link.href = feature.properties.image_id;
 
         // Create a new element - `img` will be an image
         var image = document.createElement('img');
