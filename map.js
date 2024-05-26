@@ -13,11 +13,11 @@ var interactive_map = new InteractiveMap('map', {
     max_good_zoom: 6,
     // This is the max zoom the map will allow
     max_map_zoom: 8,
-    website_source: 'https://github.com/interactive-game-maps/template',
-    website_subdir: 'template',
+    website_source: 'https://github.com/interactive-game-maps/dead_island_riptide-henderson',
+    website_subdir: 'dead_island_riptide-henderson',
     attribution: `
-    <li><a href="https://www.example.com/index.html">$Thing</a> used by <a href="https://www.example.com/index.html">$person</a> under <a href="https://www.example.com/index.html">$license</a></li>
-    <li>This project uses sample images from <a href="https://picsum.photos/">picsum.photos</a></li>
+    <li><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2726060159">Images and description</a> used by <a href="https://steamcommunity.com/profiles/76561198831803856">Kova</a></li>
+    <li><a href="https://www.nexusmods.com/deadisland/images/46/">Map</a> used by <a href="https://www.nexusmods.com/deadisland/users/730424">rataje</a></li>
 `
 });
 
@@ -30,7 +30,7 @@ var interactive_map = new InteractiveMap('map', {
 interactive_map.addTileLayer('Ingame map', {
     minNativeZoom: 2,
     maxNativeZoom: 4,
-    attribution: 'Map from <a href="https://www.example.com/index.html">$source</a>'
+    attribution: 'Map from <a href="https://www.nexusmods.com/deadisland/images/46/">rataje</a>'
 });
 
 // Step 2.5 (optional):
