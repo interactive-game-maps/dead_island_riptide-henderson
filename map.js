@@ -44,6 +44,10 @@ interactive_map.addTileLayer('Ingame map', {
 // Step 3:
 // Add at least one marker layer
 // The order matters - they will appear in this order in the sidebar and layer control
+addChampions(interactive_map);
+
+// Step 3.5 (optional):
+// Add more marker layer
 addDiaries(interactive_map);
 
 // Step 3.5 (optional):
